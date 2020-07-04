@@ -19,7 +19,7 @@ class Triangle
   
   def valid_triangle
     valid_triangle = [(length1 + length2 > length3), (length1 + length3 > length2), (length2 + length3 > length1)]
-    [length1, length2, length3].each |side| valid_triangle << false 
+    [length1, length2, length3].each do |side| valid_triangle << false 
   end
   
   class TriangleError < StandardError
