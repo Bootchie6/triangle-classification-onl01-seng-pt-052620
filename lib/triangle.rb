@@ -8,7 +8,9 @@ class Triangle
   end
   
   def kind
-    if length1 ==
+    if length1 == length2 && length2 == length3
+      :equilateral
+    elsif
   end
   
   class TriangleError < StandardError
