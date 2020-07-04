@@ -8,7 +8,7 @@ class Triangle
   end
   
   def kind
-    
+    if length1 ==
   end
   
   class TriangleError < StandardError
